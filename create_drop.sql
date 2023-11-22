@@ -13,3 +13,4 @@ select * from emp;
 
 drop database company;
 drop database if exists company;
+
