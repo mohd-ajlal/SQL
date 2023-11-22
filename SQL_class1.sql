@@ -37,3 +37,6 @@ select sum(latitude*100) from data;
 select min(latitude) from data;
 select max(latitude) from data;
 select * from data LIMIT 5;
+
+show databases;
+show tables;
