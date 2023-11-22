@@ -24,3 +24,16 @@ select * from data where nationality like '%B_a___';
 select * from data where nationality like 'brazil' and name like '%di%'; 
 select * from data order by age asc;
 select * from data order by age desc;
+
+select count(name) from data;
+select max(id) from data;
+select count(name) from data where age > 20;
+select count(*) from data;
+select count(distinct age) from data;
+select sum(age) from data;
+select avg(age) from data;
+select sum(latitude) as sum_latitude from data;
+select sum(latitude*100) from data;
+select min(latitude) from data;
+select max(latitude) from data;
+select * from data LIMIT 5;
