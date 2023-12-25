@@ -6,5 +6,3 @@
 -- check 
 -- primary key
 -- foreign key
--- 
-
